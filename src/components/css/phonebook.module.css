@@ -1,0 +1,169 @@
+body {
+  background-color: #bb2649;
+  color: #fff;
+  margin: 0;
+  padding-top: 25px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.form__title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.form__input {
+  width: 220px;
+  height: 36px;
+  padding: 0 16px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #29292b;
+  border: 1px solid #fff;
+  border-radius: 6px;
+
+  outline-style: none;
+}
+.filter__container {
+  width: 400px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filter__input {
+  width: 220px;
+  height: 36px;
+  padding: 0 16px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #29292b;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline-style: none;
+}
+
+.form__container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #262628;
+  border-radius: 10px;
+  box-shadow: 0 0 19px #730b23;
+}
+
+.input__description {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.add__button {
+  width: 100px;
+  height: 40px;
+  background-color: #bb2649;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+
+  transform: scale(1);
+  transition: all 0.2s;
+}
+.add__button:hover {
+  transform: scale(1.05);
+  background-color: #a11c3b;
+}
+.contact__list {
+  width: 704px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact__item {
+  position: relative;
+  width: 300px;
+  height: 64px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #29292b;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact__name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 16px;
+  text-align: left;
+}
+.contact__phone {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 16px;
+  text-align: left;
+}
+
+.delete__button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  background-color: #bb2649;
+  fill: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-image: url(/src//icons/delete.svg);
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delete__button:hover {
+  background-color: #a11c3b;
+}
